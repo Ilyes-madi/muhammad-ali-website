@@ -1,0 +1,184 @@
+/*body*/ 
+body {
+  background-color: #4f4f4f;
+  margin: 0;
+  padding: 10px;
+}
+/* header*/
+header {
+  background-color: #d6d6d6;
+  font-family: Audiowide, Static;
+  border: 2px solid white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ h1 {
+   color: #C9A100;   
+   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+h2 {
+  color: #C9A100;  
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.photo-ali {
+  margin: 0px;
+  padding: 0px;
+  border-radius: 15px;
+  box-shadow:0px 8px 15px rgba(0, 0, 0, 0.5);
+}
+.celebration-ali {
+  box-shadow:0px 8px 15px rgba(0, 0, 0, 0.5);
+  margin: 0px;
+  padding: 0px;
+  border-radius: 15px;
+}
+/* biographie*/
+article {
+  margin-top: 10px;
+  display: flex;
+}
+.bloc-ali {
+  background-color: #d6d6d6;
+  padding: 10px;
+  border-radius: 15px;
+  border: 2px solid white;
+  height: 300px;
+  overflow: scroll;
+}
+.bloc-ali h2 {
+ text-align: center;
+  font-family: Audiowide, Static;
+}
+.bloc-ali p{
+   font-family: "Dancing Script", cursive;
+   font-weight: bolder;
+}
+.bio-ali {
+  border-radius: 15px;
+  border: 2px solid white;
+  margin: 0px;
+  padding: 0px;
+  width: 300px;
+}
+/*main*/ 
+
+main h2 {
+  text-align: center;
+  font-family: Audiowide, Static;
+}
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+/*combat contre liston*/
+.combat-1 {
+  background-color: #d6d6d6;
+  padding: 10px;
+  border-radius: 15px;
+  border: 2px solid white;
+  height: 200px;
+  width: 450px;
+  overflow: scroll;
+  font-family: "Dancing Script", cursive;
+}
+.Liston {
+  width:350px ;
+  height: 150px;
+  border-radius: 15px;
+  box-shadow:0px 8px 15px rgba(0, 0, 0, 0.5);
+}
+/*combat contre Frazier*/
+.combat-2 {
+  background-color: #d6d6d6;
+  padding: 10px;
+  border-radius: 15px;
+  border: 2px solid white;
+  height: 200px;
+  width: 450px;
+  overflow: scroll;
+  font-family: "Dancing Script", cursive;
+}
+.Frazier {
+  width:350px ;
+  height: 150px;
+  border-radius: 15px;
+  box-shadow:0px 8px 15px rgba(0, 0, 0, 0.5);
+}
+/*combat contre Foreman*/
+.combat-3 {
+  background-color: #d6d6d6;
+  padding: 10px;
+  border-radius: 15px;
+  border: 2px solid white;
+  height: 200px;
+  width: 450px;
+  overflow: scroll;
+  font-family: "Dancing Script", cursive;
+}
+.Foreman {
+  width:350px ;
+  height: 150px;
+  border-radius: 15px;
+  box-shadow:0px 8px 15px rgba(0, 0, 0, 0.5);
+}
+/*combat contre Spinks*/
+.combat-4 {
+  background-color: #d6d6d6;
+  padding: 10px;
+  border-radius: 15px;
+  border: 2px solid white;
+  height: 200px;
+  width: 450px;
+  overflow: scroll;
+  font-family: "Dancing Script", cursive;
+}
+.Spinks {
+  width:350px ;
+  height: 150px;
+  border-radius: 15px;
+  box-shadow:0px 8px 15px rgba(0, 0, 0, 0.5);
+}
+.triple-champion {
+  text-decoration: underline;
+}
+/*footer*/
+footer {
+  color: white;
+  text-decoration: underline;
+}
+a {
+  color: black;
+  text-decoration:underline;
+}
+a:hover {
+  color:#C9A100;
+  text-decoration: underline;
+  background-color: black;
+}
+/* respnsivité du site */
+@media screen and (max-width: 480px){
+       body {
+         padding: 10px;
+         margin: 0;
+       }
+       header , article , section{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+          margin: 0 auto;
+          width: 95%;
+       }
+        
+       .combat-1, .combat-2, .combat-3, .combat-4{
+        width: 100%;
+         margin-bottom: 20px;
+       }
+
+  }
+
+    
+
